@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        min-height: 100vh;
+        background: #6391fc;
+        font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    main {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    table {
+        width: 100%;
+        max-width: 400px;
+        background: #1e293b;
+        border-radius: 18px;
+        padding: 25px;
+        border-collapse: separate;
+        border-spacing: 0;
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+    }
+
+    th {
+        color: #ffffff;
+        font-size: 28px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    td {
+        text-align: center;
+        color: #cbd5e1;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    input[type="button"]{
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 12px;
+        background: #ec4899;
+        color: #ffffff;
+        font-size: 17px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        box-shadow: 0 5px 15px rgba(198, 72, 236, 0.552);
+    }
+
+    input[type="button"]:hover {
+        background: #db2777;
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(236, 72, 153, 0.35);
+    }
+
+    input[type="button"]:active {
+        transform: scale(0.97);
+    }
+
+    @media (max-width:480px) {
+
+        body {
+            padding: 15px;
+        }
+
+        table {
+            max-width: 100%;
+            padding: 25px 20px;
+            border-radius: 16px;
+        }
+
+        th {
+            font-size: 25px;
+        }
+
+        td {
+            font-size: 17px;
+            padding: 9px;
+        }
+
+        input[type="button"] {
+            font-size: 17px;
+            padding: 15px;
+        }
+    }
+
+
+</style>
+
+
+<body>
+    <main>
+        <table>
+        <tr>
+            <th>MENSAJE</th>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="HAZ CLICK ACA" onclick="window.open('https://images.meme-arsenal.com/0cd691bbdb84facf15569295d57c261c.jpg')">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="HAZ CLICK ACA" onclick="window.open('https://www.tiktok.com/@leydi0109/video/7176828213547552005')">
+            </td>
+        </tr>
+                <tr>
+            <td>
+                <input type="button" value="HAZ CLICK ACA" onclick="window.open('https://www.tiktok.com/@ferriveraruiz/video/7301817266943839494')">
+            </td>
+        </tr>
+    </table>
+    </main>
+    
+
+</body>
+</html>
